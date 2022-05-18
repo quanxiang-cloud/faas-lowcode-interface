@@ -16,6 +16,6 @@ type GetProfileResp struct {
 }
 
 type User interface {
-	// GetProfile
+	// GetProfile GetProfile
 	GetProfile(ctx context.Context, req *GetProfileReq) (*GetProfileResp, error)
 }

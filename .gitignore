@@ -5,7 +5,6 @@
 *.so
 *.dylib
 
-.DS_Store
 
 # Test binary, built with `go test -c`
 *.test
@@ -15,3 +14,10 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+.idea
+.DS_Store
+vendor
+.vscode
+__debug_bin
+*.xml
+*.iml
